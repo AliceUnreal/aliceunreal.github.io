@@ -38,12 +38,24 @@ nav .navtitle {
 
 .bg-img {
 	background-color: #fff;
-	background-image: url('https://api.boxmoe.com/random.php?rT5YoU');
+	background-image: url("https://t.mwm.moe/pc");
 	border-radius: 10px;
 	margin: 15px;
 	padding: 10px;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 	user-select: none;
+}
+
+@media all and (orientation : portrait) {
+	.bg-img {
+		background-color: #fff;
+		background-image: url("https://t.mwm.moe/mp");
+		border-radius: 10px;
+		margin: 15px;
+		padding: 10px;
+		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+		user-select: none;
+	}
 }
 
 .item {
